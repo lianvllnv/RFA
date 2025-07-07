@@ -18,7 +18,7 @@
 
 
   <header class="header">
-    <div class="header-top" data-header>
+    <div class="header-top" data-header>     
       <div class="container">
 <!-- FOR MOBILE VIEW -->
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -29,18 +29,19 @@
 
 <!-- LOGO -->
         <a href="#" class="logo">
-          <img src="img/logo.jpg" width="50" height="50" alt="Glowing">
+          <img src="img/logo.jpg" width="50" height="50" alt="RFA LOGO">
         </a>
-       
+        <h2 style="color: var(--gold);" >RISING FILIPINO AWARDS</h2>
+
 <!-- SEARCH FORM -->
-        <div class="header-actions">
+        <!-- <div class="header-actions">
           <div class="input-wrapper">
             <input type="search" name="search" placeholder="Search..." class="search-field">
   
             <button class="search-submit" aria-label="search">
               <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
             </button>
-          </div>
+          </div> -->
 <!-- USER BUTTON -->
           <button class="header-action-btn" aria-label="user">
             <ion-icon name="person" aria-hidden="true" aria-hidden="true"></ion-icon>
@@ -74,7 +75,7 @@
 
     <div class="wrapper">
       <a href="#" class="logo">
-        <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+        <img src="./assets/images/logo.png" width="179" height="26" alt="RFA LOGO">
       </a>
 
       <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -95,7 +96,11 @@
 
     </ul>
 
- 
+    <div class="mobile-user-btn">
+      <button class="header-action-btn" aria-label="user">
+        <ion-icon name="person"></ion-icon>
+      </button>
+    </div>
 
   </div>
 
@@ -127,10 +132,10 @@
          </style>
 
         <section class="mv-section" aria-label="feature" data-section>
-            <div class="mv-container">
+            <div class="mv-container" style="font-weight: 100; font-size: var(--fs-6);">
                 <div class="mission">
                     <h2 class="mv-title">Mission</h2>
-                    <p style="font-weight: 100;">We aim to recognize and uplift the achievements of rising Filipinos who are making significant contributions in their fields, honoring their resilience, creativity, and innovation.</p>
+                    <p >We aim to recognize and uplift the achievements of rising Filipinos who are making significant contributions in their fields, honoring their resilience, creativity, and innovation.</p>
                     <p>As a charitable institution, we are committed to supporting underrepresented sectors by providing opportunities and resources to help them inspire and drive positive change in their communities and beyond.</p>
                 </div>
                 <div class="vision">
@@ -185,7 +190,7 @@
         <section class="profile-section" style="background-color: var(--light-silver); " aria-label="feature" data-section>
             <div class="container">
                 <h2 class="mv-title">Organizational Profile</h2>
-                <div class="card-text" style="line-height: 1.8;">
+                <div class="card-text" style="line-height: 1.8; font-size: var(--fs-6);" >
                     <p style="text-indent: 5rem;">
                         Rising Filipino Awards is a dynamic award-giving body and inspiring platform dedicated to recognizing and celebrating the outstanding achievements, contributions, and talents of Filipinos who are making a significant impact in various fields. Whether it be in the realms of arts and culture, science and technology, business and entrepreneurship, community service, or any other noteworthy endeavor, our organization aims to showcase the rising stars and emerging leaders who exemplify excellence and dedication. 
                     </p>   
@@ -391,10 +396,10 @@
     - #FOOTER
   -->
 
-  <footer class="footer" data-section>
-<!--     <div class="container">
+  <footer class="footer" >
+    <div class="container">
 
-      <div class="footer-top">
+      <!-- <div class="footer-top">
         <ul class="footer-list">
           <li><p class="footer-list-title">Company</p></li>
           <li><p class="footer-list-text"><a href="#" class="link">Unit 201, Merchant Square Condominium</a></p></li>
@@ -420,10 +425,10 @@
         </ul>
 
         <div class="footer-list">
-          <p class="newsletter-title">Good emails</p>
+          <p class="newsletter-title">Good emails.</p>
           <p class="newsletter-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
           <form action="" class="newsletter-form">
             <input type="email" name="email_address" placeholder="Enter your email address" required
               class="email-field">
@@ -440,7 +445,7 @@
       </div>
 
       </div>
-<!--     </div> -->
+    </div>
     </div>
   </footer>
 
