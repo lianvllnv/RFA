@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rising Filipino Awards - Website</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="header-top" data-header>
+      <div class="container">
+<!-- FOR MOBILE VIEW -->
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+<!-- LOGO -->
+        <a href="#" class="logo">
+          <img src="img/logo.jpg" width="50" height="50" alt="Glowing">
+        </a>
+       
+<!-- SEARCH FORM -->
+        <div class="header-actions">
+          <div class="input-wrapper">
+            <input type="search" name="search" placeholder="Search..." class="search-field">
+  
+            <button class="search-submit" aria-label="search">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+<!-- USER BUTTON -->
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li><a href="index.html" class="navbar-link has-after">Home</a></li>
+            <li><a href="about.html" class="navbar-link has-after">About Us</a></li>
+            <li><a href="team.html" class="navbar-link has-after">Our Team</a></li>
+            <li><a href="gallery.html" class="navbar-link has-after">Awardees Gallery</a></li>
+            <li><a href="committee.html" class="navbar-link has-after">Selection Committee</a></li>
+            <li><a href="nominate.html" class="navbar-link has-after">Nominate</a></li>
+            <li><a href="charity.html" class="navbar-link has-after">Charity Works</a></li>
+            <li><a href="donate.html" class="navbar-link has-after">Donate / Sponsor</a></li>
+            <li><a href="contact.html" class="navbar-link has-after">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+<div class="sidebar">
+  <div class="mobile-navbar" data-navbar>
+
+    <div class="wrapper">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+      </a>
+
+      <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+    </div>
+
+    <ul class="navbar-list">
+      <li><a href="index.html" class="navbar-link" data-nav-link>Home</a></li>
+      <li><a href="about.html" class="navbar-link" data-nav-link>About Us</a></li>
+      <li><a href="team.html" class="navbar-link" data-nav-link>Our Team</a></li>
+      <li><a href="gallery.html" class="navbar-link" data-nav-link>Awardees Gallery</a></li>
+      <li><a href="committee.html" class="navbar-link" data-nav-link>Selection Committee</a></li>
+      <li><a href="nominate.html" class="navbar-link" data-nav-link>Nominate</a></li>
+      <li><a href="charity.html" class="navbar-link" data-nav-link>Charity Works</a></li>
+      <li><a href="donate.html" class="navbar-link" data-nav-link>Donate / Sponsor</a></li>
+      <li><a href="#blog" class="navbar-link" data-nav-link>Contact Us</a></li>
+
+    </ul>
+
+ 
+
+  </div>
+
+  <div class="overlay" data-nav-toggler data-overlay></div>
+</div>
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+      <!-- <section class="hero"  >
+        <h1>RISING FILIPINO AWARDS </h1>
+        <p>Empowering success and celebrating the achievements of rising Filipinos across the globe.</p>
+        <button class="explore-btn">Explore More →</button>
+      </section> 
+
+      <section class="section" >
+ 
+        <div class="fade-gallery">
+            <div class="fade-slide active">
+                <img src="img/1.jpg" alt="Award Night">
+                <div class="fade-caption">
+                    <h3>Prestige Awards Night</h3>
+                    <p>Celebrating excellence since 2010</p>
+                </div>
+            </div>
+            <div class="fade-slide">
+                <img src="img/2.jpg" alt="Golden Trophy">
+                <div class="fade-caption">
+                    <h3>Golden Trophy</h3>
+                    <p>Symbol of outstanding achievement</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-dots">
+            <div class="dot active" onclick="currentSlide(0)"></div>
+            <div class="dot" onclick="currentSlide(1)"></div>
+            <div class="dot" onclick="currentSlide(2)"></div>
+        </div>
+      </section> -->
+      
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('img/2.jpg')">
+            
+            
+                  <div class="text-content">
+                    <h1 class="h1 hero-title" style="margin-bottom: 12px;">
+                      Rising <br>
+                      Filipino Awards
+                    </h1>
+            
+                    <p class="hero-text" style="margin-bottom: 40px; margin-top: 8px; color: var(--silver);">
+                      Empowering success and celebrating the achievements of rising Filipinos across the globe.
+                    </p>
+            
+                    <!-- <p class="price">Starting at 7.99</p> -->
+            
+                    <a href="#" class="btn btn-primary" style="margin-bottom: 12px;">Explore More</a>
+                  </div>
+            
+                  <!-- <div class="image-content">
+                    <img src="img/1.jpg" alt="Product" />
+                  </div> -->
+                        
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('img/1.jpg')">
+            
+                <div class="card-content with-image">
+            
+                  <div class="text-content">
+                    <h1 class="h1 hero-title" style="margin-bottom: 12px;">
+                      Rising <br>
+                      Filipino Awards
+                    </h1>
+            
+                    <p class="hero-text" style="margin-bottom: 40px; margin-top: 8px; color: var(--silver);">
+                      Empowering success and celebrating the achievements of rising Filipinos across the globe.
+                    </p>            
+                    <a href="#" class="btn btn-primary" style="margin-bottom: 12px;">Explore More</a>
+                  </div>
+
+            
+                </div>
+            
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('img/3.jpg')">
+            
+                <div class="card-content with-image">
+            
+                  <div class="text-content">
+                    <h1 class="h1 hero-title" style="margin-bottom: 12px;">
+                      Rising <br>
+                      Filipino Awards
+                    </h1>
+            
+                    <p class="hero-text" style="margin-bottom: 40px; margin-top: 8px; color: var(--silver);">
+                      Empowering success and celebrating the achievements of rising Filipinos across the globe.
+                    </p>
+            
+            
+                    <a href="#" class="btn btn-primary" style="margin-bottom: 12px;">Explore More</a>
+                  </div>
+
+            
+                </div>
+            
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </section> 
+
+
+
+
+      <!-- 
+        - #TROPHY
+      -->
+
+      <section class="section offer"  aria-label="offer" data-section>
+        <div class="container">
+
+
+          <div class="offer-content">
+
+          
+
+            <h2 class="h2-large section-title">Trophy</h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+            </p>
+
+           
+          </div>
+
+          <figure class="offer-banner">
+            <img src="img/tro.PNG" width="305" height="408" loading="lazy" alt="offer products" style="background-color: var(--light-gold);"
+              class="w-100">
+
+            <img src="img/tro2.png" width="450" height="625" loading="lazy" alt="offer products" style="background-color: var(--light-gold);"
+              class="w-100">
+          </figure>
+        </div>
+      </section> 
+
+
+   
+
+
+
+
+
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Awards Night Gallery</h2>
+
+            <a href="gallery.html" class="btn-link">
+              <span class="span">Show All</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+<!-- AWARD NIGHT GALLERY -->
+          <div class="alt-grid">
+            <!-- Row 1: 2 images -->
+            <div class="grid-item"><img src="img/1.jpg" alt=""></div>
+            <div class="grid-item"><img src="img/2.jpg" alt=""></div>
+            <!-- Row 2: 3 images -->
+            <div class="grid-item"><img src="img/3.jpg" alt=""></div>
+            <div class="grid-item"><img src="img/4.jpg" alt=""></div>
+            <div class="grid-item"><img src="img/5.jpg" alt=""></div>
+          </div>
+       
+        </div>
+      </section>
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Company</p></li>
+          <li><p class="footer-list-text"><a href="#" class="link">Unit 201, Merchant Square Condominium</a></p></li>
+          <li><p class="footer-list-text bold">0969 096 0258</p></li>
+          <li><p class="footer-list-text">villanuevarmand@gmail.com</p></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Useful links</p></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Infomation</p></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a> </li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="newsletter-title">Good emails.</p>
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-wrap">
+          <p class="footer-title">rising filipino awards</p>
+          <p class="footer-year">Honoring Excellence &copy; 2025</p>
+      </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="fade.js"></script>
+</body>
+
+</html>
