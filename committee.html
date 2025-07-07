@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rising Filipino Awards - Website</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="header-top" data-header>
+      <div class="container">
+<!-- FOR MOBILE VIEW -->
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+<!-- LOGO -->
+        <a href="#" class="logo">
+          <img src="img/logo.jpg" width="50" height="50" alt="RFA LOGO">
+        </a>
+       
+<!-- SEARCH FORM -->
+        <div class="header-actions">
+          <div class="input-wrapper">
+            <input type="search" name="search" placeholder="Search..." class="search-field">
+  
+            <button class="search-submit" aria-label="search">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+<!-- USER BUTTON -->
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li><a href="index.html" class="navbar-link has-after">Home</a></li>
+            <li><a href="about.html" class="navbar-link has-after">About Us</a></li>
+            <li><a href="team.html" class="navbar-link has-after">Our Team</a></li>
+            <li><a href="gallery.html" class="navbar-link has-after">Awardees Gallery</a></li>
+            <li><a href="committee.html" class="navbar-link has-after">Selection Committee</a></li>
+            <li><a href="nominate.html" class="navbar-link has-after">Nominate</a></li>
+            <li><a href="charity.html" class="navbar-link has-after">Charity Works</a></li>
+            <li><a href="donate.html" class="navbar-link has-after">Donate / Sponsor</a></li>
+            <li><a href="contact.html" class="navbar-link has-after">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+<div class="sidebar">
+  <div class="mobile-navbar" data-navbar>
+
+    <div class="wrapper">
+      <a href="#" class="logo">
+        <img src="img/logo.png" width="179" height="26" alt="RFA LOGO">
+      </a>
+
+      <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+    </div>
+
+    <ul class="navbar-list">
+      <li><a href="index.html" class="navbar-link" data-nav-link>Home</a></li>
+      <li><a href="about.html" class="navbar-link" data-nav-link>About Us</a></li>
+      <li><a href="team.html" class="navbar-link" data-nav-link>Our Team</a></li>
+      <li><a href="gallery.html" class="navbar-link" data-nav-link>Awardees Gallery</a></li>
+      <li><a href="committee.html" class="navbar-link" data-nav-link>Selection Committee</a></li>
+      <li><a href="nominate.html" class="navbar-link" data-nav-link>Nominate</a></li>
+      <li><a href="charity.html" class="navbar-link" data-nav-link>Charity Works</a></li>
+      <li><a href="donate.html" class="navbar-link" data-nav-link>Donate / Sponsor</a></li>
+      <li><a href="#blog" class="navbar-link" data-nav-link>Contact Us</a></li>
+
+    </ul>
+
+    <div class="mobile-user-btn">
+      <button class="header-action-btn" aria-label="user">
+        <ion-icon name="person"></ion-icon>
+      </button>
+    </div>
+
+  </div>
+
+  <div class="overlay" data-nav-toggler data-overlay></div>
+</div>
+
+
+
+
+
+
+  <main>
+    <article>
+
+
+
+        <section class="section feature" >
+            <div class="container">
+    
+              <h2 class="h2-large section-title">Selection Committee & Evaluation 
+                Board</h2>
+           
+    
+            </div>
+          </section> 
+
+        
+        
+        <div class="team-container" >
+            <div class="team-cards" id="teamCards"> 
+                <!-- Dr.Resei Rabago-Vicente -->
+                <div class="team-member-card" data-member="resei">
+                    <div class="member-image">
+                        <img src="img/resei.png" alt="Dr.Resei Rabago-Vicente">
+                    </div>
+                    <div class="card-info">
+                     
+                        <h3 class="card-title">Dr.Resei Rabago-Vicente</h3>
+                        <!-- <p class="member-position">President and Founder</p> -->
+                    </div>
+                </div>
+                
+                <!-- Dr. Milabel Enriquez-Ho -->
+                <div class="team-member-card" data-member="milabel">
+                    <div class="member-image">
+                        <img src="img/milabel.png" alt="Dr. Milabel Enriquez-Ho">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Dr. Milabel Enriquez-Ho</h3>
+                        <!-- <p class="member-position">Co-Founder</p> -->
+                    </div>
+                </div>
+                
+                <!-- Dr. Mario C. Lucero -->
+                <div class="team-member-card" data-member="mario">
+                    <div class="member-image">
+                        <img src="img/lucero.png" alt="Dr. Mario C. Lucero">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Dr. Mario C. Lucero</h3>
+                    </div>
+                </div>
+                
+                <!-- Dr. Rusty Francisco -->
+                <div class="team-member-card" data-member="rusty">
+                    <div class="member-image">
+                        <img src="img/rusty.png" alt="Dr. Rusty Francisco">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Dr. Rusty Francisco</h3>
+                    </div>
+                </div>
+                
+                <!-- Dr. Rolando P. Quinones Jr.-->
+                <div class="team-member-card" data-member="rolando">
+                    <div class="member-image">
+                        <img src="img/rolando.png" alt="Dr. Rolando P. Quinones Jr.">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Dr. Rolando P. Quinones Jr.</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Detail Panels -->
+            <div class="member-detail-panel" id="reseiPanel">
+                <button class="close-btn" onclick="closePanel()">Close</button>
+                <div class="detail-header">
+                    <div class="detail-image">
+                        <img src="img/resei.png" alt="Dr.Resei Rabago-Vicente">
+                    </div>
+                    <div class="detail-title">
+                        <h2>Dr.Resei Rabago-Vicente</h2>
+                        <p>Judge</p>
+                    </div>
+                </div>
+                
+                <div class="member-bio" >
+                    <p >
+                        Dr. Resei Rabago-Vicente is a graduate of the Doctors in Innovative Educational Management program at the University of Makati. With eight years of experience as a secretary at GERES Academy of Taguig Inc. and two years as an assistant principal at Merry Knowledge, she currently teaches at Gat Andres Bonifacio Senior High School in Brgy. Fort Bonifacio, where she is dedicated to fostering innovative educational
+                        practices                    
+                    </p>
+                    
+                </div>
+            </div>
+            
+            <div class="member-detail-panel" id="milabelPanel">
+                <button class="close-btn" onclick="closePanel()">Close</button>
+                <div class="detail-header">
+                    <div class="detail-image">
+                        <img src="img/milabel.png" alt="Dr. Milabel Enriquez-Ho">
+                    </div>
+                    <div class="detail-title">
+                        <h2>Dr. Milabel Enriquez-Ho</h2>
+                        <p>Judge</p>
+                    </div>
+                </div>
+                
+                <div class="member-bio">
+                    <p >
+                        Dr. Milabel Enriquez-Ho sits as the Chair of the Technical Panel a\for Nursing Education of the Commission on Higher Education. After her retirement in 2020, she is now serving as the Executive Director of the Accrediting Agency for Chartered Colleges and Universities in the Philippines, Inc. Dr. Ho spent more than 40 years in government service at the Western Mindanao State University, Zamboanga City where she served as its president for eight (8) years before she retired from government service.
+                        Before her presidency she also sat as Board Secretary for ten (10) years, Dean of Nursing, Executive Vice President, Vice President for Research, Extension and Linkages, Vice President for Academic Affairs.                    
+                    </p>
+                    <br>
+                    <p >
+                        She is a recipient of the Australia Awards Fellow (Applied Development and Research Partnership in Tertiary Leadership and Management") University of New England (Armadale, Parramatta, Sydney, Australia; Executive Course for Education Management and Leadership (ECEML) Development Academy of the Philippines (DAP) in 2014; Executive Management Program from the Asian Institute of Management, September, in 2012 and a Senior Flexible Learning Tutor, Southeast Asian Ministers of Education Organization, Regional Center for Educational Innovation and Technology (SEAMEO-INNOTECH).      
+                    </p>
+                    <br>
+                    <p >
+                        For her sterling performance as a dedicated and devoted public servant, educator and academic leader, she was awarded the OUTSTANDING UNESCO CLUB EDUCATOR OF THE PHILIPPINES (PEACE EDUCATION) awarded by the United Nations Educational and Scientific Cultural Organization (UNESCO) and the National Association of UNESCO Clubs in the Philippines, 2018; TOMP Awardee (TEN OUTSTANDING MOVERS OF THE PHILIPPINES, Champion of Life, heroes of the Environment) awarded by the Students' Actions and Mother Earth (SAVE ME) Movement in 2017; 2013 OUTSTANDING PROFESSIONAL OF THE YEAR (In the Field of Nursing for the contributions to the profession nationwide, awarded by the Professional Regulation Commission, 2013; ANASTASIA GIRON TUPAS AWARD - the highest and most prestigious award given by the Philippine Nurses Association (PNA) to a professional Nurse in recognition of her excellent performance and contribution to the nursing profession nationwide in 2007.
+                    </p>
+                    <br>
+                    <p >
+                        She has been actively involved with the Philippine Association of State Universities and Colleges (PASUC) having been the VP for Mindanao, President of the Mindanao Association of State Tertiary Schools or MASTS, PASUC Regional Chair for Region IX and the Region IX Zonal President.
+                    </p>
+                </div>
+                <style>
+                    .member-bio p {
+                        font-weight: 100; 
+                        text-indent: 5rem;  
+                    }
+                    .achievements-list li{
+                        font-weight: 100;
+                    }
+                </style>
+            
+            
+            </div>
+            
+            <div class="member-detail-panel" id="marioPanel">
+                <button class="close-btn" onclick="closePanel()">Close</button>
+                <div class="detail-header">
+                    <div class="detail-image">
+                        <img src="img/lucero.png" alt="Dr. Mario C. Lucero">
+                    </div>
+                    <div class="detail-title">
+                        <h2>Dr. Mario C. Lucero</h2>
+                        <p>Judge</p>
+                    </div>
+                </div>
+                
+                <div class="member-bio">
+                    <p >
+                        Dr, Mario C. Lucero, SPBE has the following areas of expertise: Educational Leadership and Management, Curriculum and Instruction, Human Resources, Communication Arts (English), ICT, Research, Business Education, Fiscal Management and Strategic Planning. 
+
+                   
+                    </p>
+                    <br>
+                    <p >
+                        He finished his Doctor of Philosophy in Education, Major in Educational Management in 2010 with a dissertation on The Hermeneutics of Principalship: A Case Study of Filipino Educational Leaders (Magna Cum Laude- Dissertation Grade) at the University of Santo Tomas. He also took his Master of Arts in English in 2002 with a thesis on Computer Assisted Language Learning (Magna Cum Laude –Thesis Grade) at the University of Santo Tomas. His undergraduate degree in Education with specialization in Science opened vast opportunities for him to become a professional teacher and school leader for almost three decades. He also finished 2 Post-Doctoral programs in Educational Leadership and Management (ELM) and Research. 
+                    </p>
+                    <br>
+                    <p >
+                        He received numerous awards from various institution and organizations locally and internationally from more than 50 countries across the globe. He is an international world record holder of 4 international prestigious Books of World Record because of his poems on Covid 19 published at the Amazons, books and journals in Asia, Europe and America. He is known as the Global Poet for humanity.
+                    </p>
+                    <br>
+                    <p >
+                        He served as ambassador of many organizations in more than 50 countries, country heads of many institutions and organizations and director of organizations in Asia and Southeast Asian countries. 
+                    </p>
+                    <br>
+                    <p >
+                        He holds 50 honorary doctorates from different colleges and universities abroad and more than 100 honorary doctorates from different international recognized organization.
+                    </p>
+                    <br>
+                    <p >
+                        He has written many researches and published in refereed journals. He is also a writer and author. 
+                    </p>
+                    <br>
+                    <p >
+                        As a graduate school professor in different universities, he handled courses in the masters and doctoral programs in Education and Teaching English. He had taught in the College of Education, Graduate School at the University of the Philippines, Diliman and became a Dean of the College of San Benildo Rizal. 
+                    </p>
+                    <br>
+                    <p >
+                        He received a Degree Peerage as a Prince of Kutai Mulawarman Kingdom, Prince of Bali Indonesia and a Dato Radendo Sri at Beletung Kingdom
+                    </p>
+                    <br>
+                    <p >
+                        He is a vlogger, principal of Springfield School –International and the founder/president of Leadership in Education Academy and Development-Philippines and other 7 international organizations.
+                    </p>
+                    <br>
+                    <p >
+                        Finally, he was named as the King of Education by Macedonian Association and YES You Can International United Kingdom.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="member-detail-panel" id="rustyPanel">
+                <button class="close-btn" onclick="closePanel()">Close</button>
+                <div class="detail-header">
+                    <div class="detail-image">
+                        <img src="img/rusty.png" alt="Dr. Rusty Francisco">
+                    </div>
+                    <div class="detail-title">
+                        <h2>Dr. Rusty Francisco</h2>
+                        <p>Judge</p>
+                    </div>
+                </div>
+                
+                <div class="member-bio">
+                    <p>
+                        Program Host of BE THE ONE at EuroTv Philippines, former GMA7 and ABS-CBN employee, freelance writer and PR/Marketing specialist, and President of Mr.Elite Supreme Model.
+                    </p>
+                    <br>
+                    <p>
+                        He is the founding president of the PNA- Florida and served on the Board of PNA-
+                        America. He is included in the Who’s Who of American Nursing and the Directory
+                        of American Nurses in Advanced Practice. He was admitted and inducted into the
+                        Sigma Theta Tau, the International Honor Society in Nursing, and a Fellow in
+                        Nurse Education by the Royal Institute of Canada
+                        
+                    </p>
+                    <br>
+                    <p>
+                        He was the first Filipino Nurse Educator at the Mount Sinai Medical Centre, swiftly
+                        climbed the organizational ladder, and became the Vice President of Patient
+                        Services. He was the first Filipino Consultant for the Director of Nursing at Long
+                        Term Care Facilities and Chief Operating Officer of NC-CLEX.
+                         
+                    </p>
+                    <br>
+                    <p>
+                        Currently, he is the International Deployment Consultant for RPHP USA and the Educational Consultant for Strategix International School (Australia) and Convergence Documentation Services (Philippines). 
+                    </p>
+                </div>
+             
+            </div>
+            
+            <div class="member-detail-panel" id="rolandoPanel">
+                <button class="close-btn" onclick="closePanel()">Close</button>
+                <div class="detail-header">
+                    <div class="detail-image">
+                        <img src="img/rolando.png" alt="Dr. Rolando P. Quinones Jr.">
+                    </div>
+                    <div class="detail-title">
+                        <h2>Dr. Rolando P. Quinones Jr.</h2>
+                        <p>Judge</p>
+                    </div>
+                </div>
+                
+                <div class="member-bio">
+                    <p>
+                        Dr. Rolando P. Quinones Jr. is a distinguished educator and researcher, currently co-hosting the "I Serve Radio and Digital Program" on AFP Radio’s Voice of the Teachers. His remarkable contributions to language and literature preservation have earned him Asia’s Most Outstanding Achievements Award in 2024, along with recognition as an Outstanding English Language Educator advocating for Indigenous Peoples in the same year. He holds a PhD in English Language Literature from La Consolacion University, where he received both the Academic Distinction and Research Distinction Awards in 2023. A Cum Laude graduate from the Philippine Normal University in 2003, Dr. Quinones also has considerable experience as the Managing Editor of the Red Newsletter at the Polytechnic University of the Philippines and previously taught at the Philippine School in Muscat, Oman and was a contributing writer in the Sunday Magazine of Oman Times. His commitment to education and community service is further exemplified by his role as an events lead organizer with the Rotary Club of the Holy Spirit for his Training the Trainers community service for the Holy Spirit National High School teachers.                    
+                    </p>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+      
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const cards = document.querySelectorAll('.team-member-card');
+                const teamCardsContainer = document.getElementById('teamCards');
+                let activeCard = null;
+                
+                cards.forEach(card => {
+                    card.addEventListener('click', function() {
+                        const memberId = this.getAttribute('data-member');
+                        const panel = document.getElementById(memberId + 'Panel');
+                        
+                        // If clicking the same card that's already active
+                        if (this.classList.contains('active')) {
+                            // Close the panel
+                            this.classList.remove('active');
+                            panel.classList.remove('active');
+                            teamCardsContainer.classList.remove('compact');
+                            activeCard = null;
+                            
+                            // Scroll back to top on mobile
+                            if (window.innerWidth <= 992) {
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                            }
+                            return;
+                        }
+                        
+                        // Remove active class from all cards
+                        cards.forEach(c => c.classList.remove('active'));
+                        
+                        // Hide all panels
+                        document.querySelectorAll('.member-detail-panel').forEach(p => {
+                            p.classList.remove('active');
+                        });
+                        
+                        // Add active class to clicked card
+                        this.classList.add('active');
+                        activeCard = this;
+                        
+                        // Compact the cards container
+                        teamCardsContainer.classList.add('compact');
+                        
+                        // Show the corresponding panel
+                        panel.classList.add('active');
+                        
+                        // Smooth scroll to the panel (for mobile view)
+                        if (window.innerWidth <= 992) {
+                            panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    });
+                });
+            });
+            
+            function closePanel() {
+                // Remove compact mode
+                document.getElementById('teamCards').classList.remove('compact');
+                
+                // Remove active from all cards
+                document.querySelectorAll('.team-member-card').forEach(card => {
+                    card.classList.remove('active');
+                });
+                
+                // Hide all panels
+                document.querySelectorAll('.member-detail-panel').forEach(panel => {
+                    panel.classList.remove('active');
+                });
+                
+                // Scroll back to top (for mobile view)
+                if (window.innerWidth <= 992) {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }
+        </script>
+
+
+
+    </article>
+</main>
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" >
+    <div class="container">
+
+      <!-- <div class="footer-top">
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Company</p></li>
+          <li><p class="footer-list-text"><a href="#" class="link">Unit 201, Merchant Square Condominium</a></p></li>
+          <li><p class="footer-list-text bold">0969 096 0258</p></li>
+          <li><p class="footer-list-text">villanuevarmand@gmail.com</p></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Useful links</p></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Infomation</p></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a> </li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="newsletter-title">Good emails.</p>
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+
+      </div> -->
+
+      <div class="footer-bottom">
+        <div class="footer-wrap">
+          <p class="footer-title">rising filipino awards</p>
+          <p class="footer-year">Honoring Excellence &copy; 2025</p>
+      </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="fade.js"></script>
+</body>
+
+</html>
+
+    <style>
+         body {
+            background-color: var(--white);
+            color: var(--charcoal);
+            line-height: 1.6;
+        }
+        
+        .team-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            display: flex;
+            gap: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: var(--black);
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* h1::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: var(--gold);
+        }
+         */
+        .team-cards {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            /* transition: all 0.3s ease; */
+        }
+        
+        .team-cards.compact {
+            flex: 0 0 40%;
+        }
+        
+        .team-member-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .team-member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .team-member-card.active {
+            border: 2px solid var(--gold);
+            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+        }
+        
+        .member-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .member-image img {
+            width: 80%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            object-position: top;
+        }
+        
+        .team-member-card:hover .member-image img {
+            /* transform: scale(1.05); */
+        }
+        
+        .card-info {
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        /* .member-name {
+            font-size: 1.2rem;
+            color: var(--black);
+            margin-bottom: 0.25rem;
+        }mm÷ */
+        
+        .member-position {
+            color: var(--gold);
+            font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  line-height: 1;
+        }
+        
+        .member-detail-panel {
+            flex: 0 0 55%;
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-height: 80vh;
+            overflow-y: auto;
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .member-detail-panel.active {
+            display: block;
+        }
+        
+        .detail-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .detail-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 2rem;
+            flex-shrink: 0;
+            /* border: 3px solid var(--gold); */
+        }
+        
+        .detail-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+        
+        .detail-title h2 {
+            font-size: 1.8rem;
+            color: var(--black);
+            margin-bottom: 0.5rem;
+        }
+        
+        .detail-title p {
+            font-size: 1.1rem;
+            color: var(--gold);
+            font-weight: 600;
+        }
+        
+        .member-bio {
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        
+        .member-achievements {
+            margin-top: 1.5rem;
+        }
+        
+        .achievements-title {
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: var(--black);
+            font-size: 1.2rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* .achievements-title::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--gold);
+        } */
+        
+        .achievements-list {
+            list-style-type: none;
+        }
+        
+        .achievements-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        /* .achievements-list li::before {
+            content: '★';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        } */
+        
+        .close-btn {
+            display: none;
+            background: var(--black);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 1rem;
+            float: right;
+            transition: background 0.3s ease;
+        }
+        
+        .close-btn:hover {
+            background: #003d7a;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1rem;
+            color: #666;
+            font-size: 0.9rem;
+            clear: both;
+        }
+        
+        @media (max-width: 992px) {
+            .team-container {
+                flex-direction: column;
+            }
+            
+            .team-cards {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            
+            .team-cards.compact {
+                flex: 1;
+            }
+            
+            .member-detail-panel {
+                flex: 1;
+                margin-top: 2rem;
+                max-height: none;
+            }
+            
+            .close-btn {
+                display: inline-block;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .detail-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .detail-image {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .team-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
