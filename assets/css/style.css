@@ -65,6 +65,7 @@
   --fs-7: 1.5rem;
   --fs-8: 1.4rem;
   --fs-9: 1.3rem;
+  --fs-10: 1rem;
 
   --fw-400: 400;
   --fw-500: 500;
@@ -401,7 +402,7 @@ body {
 
 .header-top.active {
   position: fixed;
-  top: -106px;
+  top: -80px;
   bottom: auto;
   box-shadow: var(--shadow-1);
   transform: translateY(100%);
@@ -792,7 +793,8 @@ button.header-action-btn {
 .feature .section-title { margin-block-end: 40px; }
 
 .feature-card .card-icon {
-  width: 100px;
+  width: auto;
+  height: 50vh;
   margin-inline: auto;
 }
 
@@ -801,9 +803,28 @@ button.header-action-btn {
 .feature-card .card-text { font-size: var(--fs-7); }
 
 
+/*-----------------------------------*\
+  #TROPHY
+\*-----------------------------------*/
 
+/* .trophy { text-align: center; } */
 
+.trophy .section-title { margin-block-end: 40px; }
 
+/* .trophy-card .card-icon {
+  width: 100px;
+  margin-inline: auto;
+} */
+
+.trophy .card-title { margin-block: 35px 15px; }
+
+.trophy .card-text { font-size: var(--fs-7); }
+
+.trophy .card-icon {
+  height: 200px;
+  width: auto;
+  margin-inline: auto;
+}
 /*-----------------------------------*\
   #OFFER
 \*-----------------------------------*/
@@ -1424,7 +1445,7 @@ button.header-action-btn {
 
   .header-top.active .navbar {
     position: fixed;
-    top: -80px;
+    top: -106px;
     bottom: auto;
     padding-block: 28px;
     box-shadow: var(--shadow-1);
@@ -1470,6 +1491,19 @@ button.header-action-btn {
 
   .feature .flex-item { max-width: calc(33.33% - 66.66px); }
 
+
+  /**
+   * TROPHY
+   */
+
+   .trophy .section-title { margin-block-end: 60px; }
+
+   .trophy .flex-list {
+     gap: 100px;
+     padding-inline: 50px;
+   }
+ 
+   .trophy .flex-item { max-width: calc(33.33% - 66.66px); }
 
 
   /**
