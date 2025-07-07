@@ -401,7 +401,7 @@ body {
 
 .header-top.active {
   position: fixed;
-  top: -80px;
+  top: -106px;
   bottom: auto;
   box-shadow: var(--shadow-1);
   transform: translateY(100%);
