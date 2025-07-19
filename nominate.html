@@ -106,12 +106,120 @@
 
 
 
-
+<!-- <style>
+    .side-title{
+        color: var(--gold);
+            font-size: 1.4rem;
+            margin: 25px 0 15px;
+    }
+</style> -->
   <main>
     <article>
+        <section class="profile-section"  aria-label="feature" data-section>
+            <div class="container">
+                <h2 class="mv-title">Nomination</h2>
+<!--  -->
+                <h3 class="h3 card-title" style="color: var(--charcoal) !important;;"> About the Rising Filipino Awards</h3>
+ <br>
+                <div class="card-text" style="line-height: 1.8; font-size: var(--fs-6);" >
+                    <p style="text-indent: 5rem; color: var(--black);" >
+                        The Rising Filipino Awards (RFA) is an esteemed event that celebrates and recognizes exceptional Filipinos who have made outstanding contributions to their fields while uplifting their communities and promoting Filipino culture. Launched with a vision to honor individuals who embody leadership, innovation, and social responsibility, the Rising Filipino Awards is dedicated to highlighting talent, dedication, and commitment to excellence among Filipinos worldwide.
+                    </p>   
+                </div>
+<br>
+<!--  -->
+                <h3 class="h3 card-title" style="color: var(--charcoal) !important;;"> 
+                    Award Categories
+                </h3>
+                <br>
+                <div class="symbolism"  style="line-height: 1.8; color: var(--black);" >
+                    <p >
+                      <strong>Entertainment, Arts & Culture </strong>
+                      - Recognizing individuals who have made remarkable contributions to preserving and promoting Filipino heritage and artistic expression.
+                    </p>
+                    <p>
+                      <strong>Business & Entrepreneurship</strong> 
+                      - Honoring visionary entrepreneurs who have excelled in business and contributed to the country's economic development.
+                    </p>
+                    <p>
+                      <strong>Science & Technology</strong> 
+                      - Celebrating individuals who have made groundbreaking discoveries and innovations that benefit society.
+                    </p>
+                    <p>
+                      <strong>Public Service</strong> 
+                      - Acknowledging the efforts of those in public office or service roles who have had a meaningful impact on the public good.                    </p>
+                    <p>
+                      <strong>Community Service</strong> 
+                      - Highlighting individuals whose philanthropic work and community involvement have improved the lives of marginalized sectors, emerging talents, or entrepreneurs.
+                    </p>
+                  </div>
+<!--  -->
+                  <br>
+                  <div class="card-text" style="line-height: 1.8; font-size: var(--fs-6); color: var(--black);" >
+                    <p style="text-indent: 5rem;">
+                        The Rising Filipino Awards seeks not only to recognize achievement but also to inspire future generations to follow in the footsteps of those who strive for progress and positive change. It aims to create a platform where honorees can share their stories and motivate others to contribute to the betterment of society.
+                    </p>   
+                </div>
+                <div class="important-note" style="line-height: 1.8; font-size: var(--fs-6); color: var(--black);     font-weight: 400;"   >
+                    <p>
+                        <strong>VERY IMPORTANT:</strong> Nominators (or self-nominators) are encouraged to provide a detailed account of the nominee's impact on their field or community, along with supporting documents like resumes, portfolios, and endorsements to substantiate their qualifications.
+                    </p>
+                </div>
+                <br>
+<!--  -->
+                <h3 class="h3 card-title" style="color: var(--charcoal) !important;;"> 
+                    Evaluation Criteria
+                </h3>
+                <div class="criteria-grid">
+                    <div class="criteria-card">
+                        <h4>Nominee's Achievements & Contributions (5 pts)</h4>
+                        <p>Focus on the nominee's significant accomplishments and their influence on their field or community.</p>
+                    </div>
+                    <div class="criteria-card">
+                        <h4>Charitable Involvement and Community Impact (5 pts)</h4>
+                        <p>Assessment of the nominee's charitable or community service work.</p>
+                    </div>
+                    <div class="criteria-card">
+                        <h4>Reason for Nomination (5 pts)</h4>
+                        <p>The strength and relevance of the nominator's explanation.</p>
+                    </div>
+                    <div class="criteria-card">
+                        <h4>Supporting Documents (5 pts)</h4>
+                        <p>Review of attachments to verify the nominee's achievements and qualifications.</p>
+                    </div>
+                </div>
+                <div class="card-text" style="line-height: 1.8; font-size: var(--fs-6); color: var(--black);" >
+                    <p><strong>Total Score:</strong> 20 Points</p>
+                    <p>Each member of the Selection Committee and Board of Evaluators will grade the nominee based on the criteria listed above. The passing score is 15 points and above, calculated from the total average of scores given by the evaluators.</p>
 
-
-
+              </div>
+<!--  -->
+              <div class="important-note" style="line-height: 1.8; font-size: var(--fs-6); color: var(--black);     font-weight: 400;"  >
+                <p>
+                    <strong>File Requirements:</strong> 
+                    You will be asked to upload a high-definition (HD) photo of the nominee in business or formal attire (HALF BODY), in PNG or JPG (jpeg) format, along with supporting documents. Please ensure these files are ready before filling out the form.
+                </p>
+            </div>
+<!--  -->
+            <br>
+<div class="confirmation-box">
+    <h3 class="h3 card-title" style="color: var(--gold) !important;"> 
+        Confirmation
+    </h3>
+    <br>
+    <p style=" font-size: var(--fs-6); color: var(--black); font-weight: 100;">This is to confirm that I have read the form description above before I provide all the information needed in the next sections.</p>
+    
+    <div class="checkbox-container" style=" font-size: var(--fs-6); color: var(--black); font-weight: 100;">
+        <input type="checkbox" id="confirmation" name="confirmation" required>
+        <label for="confirmation">I acknowledge that I have read and understood the information above and am ready to proceed with the nomination.</label>
+    </div>
+    
+    <div class="btn-container">
+        <button type="button" class="btn-next" onclick="proceedToNextSection()">Begin Nomination</button>
+    </div>
+</div>
+            </div>
+        </section>
     </article>
 </main>
 
@@ -191,4 +299,310 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="fade.js"></script>
+<script>
+    function proceedToNextSection() {
+        if (document.getElementById('confirmation').checked) {
+            // Redirect to nominate2.html when checkbox is checked
+            window.location.href = 'nom_process.html';
+        } else {
+            alert('Please confirm that you have read the information before proceeding.');
+        }
+    }
+</script>
 </body>
+<style>
+    .space{
+        margin-bottom: 5rem;
+    }
+    .mv-section {
+        background: var(--light-gold);
+        padding: 80px 0;
+    }
+    
+    
+    .mv-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .vision, .mission {
+        background: var(--white);
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+    }
+    
+    .mv-title {
+        color: var(--gold);
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        color: var(--gold);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .values-section {
+                padding: 80px 0;
+                text-align: center;
+            }
+            
+    
+      
+            .values-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+            
+            .value-card {
+                background: var(--white);
+                padding: 8px 8px;
+                border-radius: 8px;
+                box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+                border-top: 4px solid var(--gold);
+                width: 150px;
+                /* transition: transform 0.3s ease; */
+            }
+            
+    
+            .value-letter {
+                font-size: 2.5rem;
+                color: var(--gold);
+                font-weight: 700;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            
+            .value-title {
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+                color: var(--charcoal);
+                font-weight: 500;
+                text-align: center;
+            }
+            
+            .value-desc {
+                font-size: 0.85rem;
+                text-align: center;
+            }
+            @media (max-width: 1024px) {
+                .mv-container {
+                    grid-template-columns: 1fr;
+                    gap: 30px;
+                }
+                
+                .values-container {
+                    flex-wrap: wrap;
+                }
+                
+                .certificates {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            
+            @media (max-width: 768px) {
+              
+                .value-card {
+                    width: 120px;
+                    padding: 20px 15px;
+                }
+                
+                .certificates {
+                    grid-template-columns: 1fr;
+                }
+                
+                .founder-photo {
+                    width: 100%;
+                }
+            }
+    
+    
+    
+            .profile-section {
+                padding: 60px 0;
+            }
+            
+       
+            
+            .about-text {
+                font-size: 1.1rem;
+                line-height: 1.8;
+                margin-bottom: 30px;
+      font-size: var(--fs-6);
+      margin-block-end: auto;
+            }
+            
+           
+            .mission p, .vision p, .value-card p, .card-text p {
+            font-weight: 100;
+          }
+           
+    </style>
+        <style>
+     
+
+  
+        
+            .trophy-description {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3rem;
+                margin-bottom: 4rem;
+            }
+            
+            .trophy-image {
+                flex: 1;
+                min-width: 300px;
+                text-align: center;
+            }
+            
+            .main-trophy {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            }
+            
+            .image-caption {
+                margin-top: 1rem;
+                font-style: italic;
+                color: #666;
+            }
+            
+            .symbolism {
+                flex: 2;
+                min-width: 300px;
+            }
+            
+      
+            .symbolism p {
+        font-weight: 100;
+        font-size: var(--fs-6);
+    }
+    
+    .symbolism p strong {
+        font-weight: 500; 
+        color: var(--black);
+    }
+    
+           
+            
+            
+            @media (max-width: 768px) {
+                .trophy-description {
+                    flex-direction: column;
+                }
+                
+                .trophy-image, .symbolism {
+                    flex: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    <!--  -->
+
+    <style>
+          .criteria-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .criteria-card {
+            background: var(--light-gold);
+            border: 1px  var(--gold);
+            padding: 15px;
+            border-radius: 18px;
+            
+        }
+        .criteria-card p {
+            color: var(--black);
+            font-weight: 100;
+        }
+        .criteria-card h4 {
+            color: var(--gold);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+          .important-note {
+            background-color: #FFF9E6;
+            border-left: 4px solid var(--secondary);
+            padding: 15px;
+            margin: 25px 0;
+            font-size: 0.95rem;
+        }
+        
+        .important-note strong {
+            color: var(--red);
+        }
+        .confirmation-box {
+            background: var(--light);
+            border: 1px solid #ddd;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .checkbox-container {
+            display: flex;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+        
+        .checkbox-container input {
+            margin-right: 15px;
+            margin-top: 7px;
+        }
+        
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .btn-next {
+            background-color: var(--gold);
+            color: var(--white);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(0, 85, 162, 0.2);
+        }
+        
+        .btn-next:hover {
+            background-color: #c2a032;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 85, 162, 0.3);
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .form-container {
+                padding: 25px;
+            }
+            
+            .criteria-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
