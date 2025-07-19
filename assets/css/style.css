@@ -37,6 +37,7 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --gold: #D4AF37;
+  --red: #CE1126;
   --light-gold: rgba(212, 175, 55, 0.1);
   --silver: #C0C0C0;
   --charcoal: #2C2C2C;
@@ -124,7 +125,7 @@
 li { list-style: none; }
 
 a,
-img,
+/* img, */
 span,
 input,
 button,
@@ -144,7 +145,7 @@ button {
   font: inherit;
 }
 
-input { width: 100%; }
+/* input { width: 100%; } */
 
 button { cursor: pointer; }
 
@@ -1307,6 +1308,7 @@ button.header-action-btn {
  * responsive for larger than 1200px screen
  */
 
+
 @media (min-width: 1200px) {
 
   /**
@@ -1425,7 +1427,7 @@ button.header-action-btn {
   .navbar .navbar-link {
     color: var(--black);
     font-size: var(--fs-7);
-    font-weight: var(--fw-600);
+    /* font-weight: var(--fw-600); */
   }
 
   .navbar .navbar-link::after {
