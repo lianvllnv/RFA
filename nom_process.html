@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rising Filipino Awards - Website</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="header-top" data-header>
+      <div class="container">
+<!-- FOR MOBILE VIEW -->
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+<!-- LOGO -->
+        <a href="#" class="logo">
+          <img src="img/logo.jpg" width="50" height="50" alt="Glowing">
+        </a>
+       
+<!-- SEARCH FORM -->
+        <div class="header-actions">
+          <div class="input-wrapper">
+            <input type="search" name="search" placeholder="Search..." class="search-field">
+  
+            <button class="search-submit" aria-label="search">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+<!-- USER BUTTON -->
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li><a href="index.html" class="navbar-link has-after">Home</a></li>
+            <li><a href="about.html" class="navbar-link has-after">About Us</a></li>
+            <li><a href="team.html" class="navbar-link has-after">Our Team</a></li>
+            <li><a href="gallery.html" class="navbar-link has-after">Awardees Gallery</a></li>
+            <li><a href="committee.html" class="navbar-link has-after">Selection Committee</a></li>
+            <li><a href="nominate.html" class="navbar-link has-after">Nominate</a></li>
+            <li><a href="charity.html" class="navbar-link has-after">Charity Works</a></li>
+            <li><a href="donate.html" class="navbar-link has-after">Donate / Sponsor</a></li>
+            <li><a href="contact.html" class="navbar-link has-after">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+<div class="sidebar">
+  <div class="mobile-navbar" data-navbar>
+
+    <div class="wrapper">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+      </a>
+
+      <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+    </div>
+
+    <ul class="navbar-list">
+      <li><a href="index.html" class="navbar-link" data-nav-link>Home</a></li>
+      <li><a href="about.html" class="navbar-link" data-nav-link>About Us</a></li>
+      <li><a href="team.html" class="navbar-link" data-nav-link>Our Team</a></li>
+      <li><a href="gallery.html" class="navbar-link" data-nav-link>Awardees Gallery</a></li>
+      <li><a href="committee.html" class="navbar-link" data-nav-link>Selection Committee</a></li>
+      <li><a href="nominate.html" class="navbar-link" data-nav-link>Nominate</a></li>
+      <li><a href="charity.html" class="navbar-link" data-nav-link>Charity Works</a></li>
+      <li><a href="donate.html" class="navbar-link" data-nav-link>Donate / Sponsor</a></li>
+      <li><a href="#blog" class="navbar-link" data-nav-link>Contact Us</a></li>
+
+    </ul>
+
+ 
+
+  </div>
+
+  <div class="overlay" data-nav-toggler data-overlay></div>
+</div>
+
+
+
+
+
+
+  <main>
+    <article>
+        <style>
+ .logoo {
+            width: 120px;
+            margin-bottom: -15px;
+        }
+.section{
+    background-color: var(--charcoal);
+    text-align: center;
+    color: var(--white);
+}
+.mv-title {
+        color: var(--white);
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    
+        </style>
+
+        <section class="section"  aria-label="feature" data-section >
+            <div class="container" style="text-align: center;">
+                <img src="img/logo.png" alt="Rising Filipino Awards Logo" class="logoo" style="text-align: center;">
+                <h2 class="mv-title">Rising Filipino Awards 2025</h2>
+                <p class="subtitle">Nomination Form - Nominator Information</p>
+
+                </div>
+        </section>
+
+        <section class="profile-section"  aria-label="feature" data-section style="color: var(--black);">
+            <div class="container">
+<!--  -->
+
+<style>
+     .form-container h2{
+                color: var(--gold);
+    font-size: var(--fs-4);
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 10px;
+            }
+            .profile-section {
+                padding: 22px 0;
+            }
+</style>
+<section class="profile-section"  >
+    <div class="container">
+<div class="form-container">
+    <h2>Nominee / Awardee's Information</h2>
+    
+    <form id="nomineeForm">
+        <div class="form-section">
+            
+            
+<!-- column -->
+<style>
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 20px;
+    }
+  
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .form-group p.file-requirements {
+      font-size: 0.875rem;
+      color: #666;
+      margin-top: 5px;
+    }
+  
+    label.required::after {
+      content: " *";
+      color: red;
+    }
+  
+    input[type="text"],
+    input[type="date"] {
+      padding: 8px;
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+  </style>
+  
+  <div class="form-grid">
+    <div class="form-group">
+        <label for="title" class="required">Title</label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="title-mr" name="title" value="Mr." required>
+                <label for="title-mr">Mr.</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="title-ms" name="title" value="Ms.">
+                <label for="title-ms">Ms.</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="title-mrs" name="title" value="Mrs.">
+                <label for="title-mrs">Mrs.</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="title-dr" name="title" value="Dr.">
+                <label for="title-dr">Dr.</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="title-atty" name="title" value="Atty.">
+                <label for="title-atty">Atty.</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="title-hon" name="title" value="Hon.">
+                <label for="title-hon">Hon.</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="title-other" name="title" value="Other">
+                <label for="title-other">Other:</label>
+            </div>
+        </div>
+        <input type="text" id="title-other-text" name="title-other-text" class="other-input" placeholder="Please specify">
+    </div>
+    <div class="form-group">
+      <label for="fullname" class="required">Full Name of the Nominee</label>
+      <input type="text" id="fullname" name="fullname" required>
+      <p class="file-requirements">Please make sure that you put the correct spelling of the name as this will be advertised in various media platforms.</p>
+    </div>
+  
+    <div class="form-group">
+      <label for="occupation" class="required">Occupation / Position / Designation</label>
+      <input type="text" id="occupation" name="occupation" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="company">Company / Institution (if applicable)</label>
+      <input type="text" id="company" name="company">
+    </div>
+  
+    <div class="form-group">
+      <label for="birthdate" class="required">Birthdate</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+      <p class="file-requirements">Format: MMM-DD-YYYY (alphanumerical e.g. NOV-30-1991)</p>
+    </div>
+    <div class="form-group">
+        <label for="contact" class="required">Contact Number</label>
+        <input type="tel" id="contact" name="contact" required>
+    </div>
+
+    <div class="form-group">
+        <label for="age" class="required">Age</label>
+        <input type="number" id="age" name="age" min="18" max="120" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email" class="required">Email Address</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="gender" class="required">Gender</label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="gender-male" name="gender" value="Male" required>
+                <label for="gender-male">Male</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="gender-female" name="gender" value="Female">
+                <label for="gender-female">Female</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="gender-other" name="gender" value="Other">
+                <label for="gender-other">Other:</label>
+            </div>
+        </div>
+        <input type="text" id="gender-other-text" name="gender-other-text" class="other-input" placeholder="Please specify">
+    </div>
+    
+    <div class="form-group">
+        <label for="nationality" class="required">Nationality</label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="nationality-filipino" name="nationality" value="Filipino" required>
+                <label for="nationality-filipino">Filipino</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="nationality-other" name="nationality" value="Other">
+                <label for="nationality-other">Other:</label>
+            </div>
+        </div>
+        <input type="text" id="nationality-other-text" name="nationality-other-text" class="other-input" placeholder="Please specify">
+    </div>
+    
+   
+    
+    
+    <div class="form-group">
+        <label for="address" class="required">Office / Home Address</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="mobile" class="required">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+           
+            <div class="form-group">
+                <label for="photo" class="required">High-definition (HD) photo of the nominee</label>
+                <div class="file-upload" id="photo-upload-area">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Click to upload or drag and drop</p>
+                    <p class="file-requirements">You are required to upload your best Business/Formal Attire (Half-Body) HD photo in PNG or JPG (jpeg). This photo will be used in all RFA's promotion.</p>
+                    <p class="file-requirements">Upload up to 5 supported files. Max 10 MB per file.</p>
+                </div>
+                <input type="file" id="photo" name="photo" accept="image/jpeg,image/png" style="display: none;" required multiple>
+                <div id="file-list"></div>
+            </div>
+        </div>
+        
+        <div class="btn-container">
+            <button type="button" class="btn btn-back" onclick="window.location.href='index.html'">Back</button>
+            <button type="submit" class="btn btn-next" >Save & Continue</button>
+        </div>
+        
+    </form>
+</div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </article>
+</main>
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" >
+    <div class="container">
+
+      <!-- <div class="footer-top">
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Company</p></li>
+          <li><p class="footer-list-text"><a href="#" class="link">Unit 201, Merchant Square Condominium</a></p></li>
+          <li><p class="footer-list-text bold">0969 096 0258</p></li>
+          <li><p class="footer-list-text">villanuevarmand@gmail.com</p></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Useful links</p></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Infomation</p></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a> </li>
+          <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="newsletter-title">Good emails.</p>
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+
+      </div> -->
+
+      <div class="footer-bottom">
+        <div class="footer-wrap">
+          <p class="footer-title">rising filipino awards</p>
+          <p class="footer-year">Honoring Excellence &copy; 2025</p>
+      </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="fade.js"></script>
+<script>
+    // Show other text input when "Other" is selected
+    document.querySelectorAll('input[type="radio"][value="Other"]').forEach(radio => {
+        radio.addEventListener('change', function() {
+            const otherInput = document.getElementById(this.name + '-other-text');
+            otherInput.style.display = this.checked ? 'block' : 'none';
+            if (this.checked) otherInput.focus();
+        });
+    });
+    
+    // File upload handling
+    const uploadArea = document.getElementById('photo-upload-area');
+    const fileInput = document.getElementById('photo');
+    const fileList = document.getElementById('file-list');
+    
+    uploadArea.addEventListener('click', () => fileInput.click());
+    
+    uploadArea.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        uploadArea.style.borderColor = 'var(--gold)';
+        uploadArea.style.backgroundColor = 'rgba(0, 85, 162, 0.1)';
+    });
+    
+    uploadArea.addEventListener('dragleave', () => {
+        uploadArea.style.borderColor = '#ddd';
+        uploadArea.style.backgroundColor = '';
+    });
+    
+    uploadArea.addEventListener('drop', (e) => {
+        e.preventDefault();
+        uploadArea.style.borderColor = '#ddd';
+        uploadArea.style.backgroundColor = '';
+        
+        if (e.dataTransfer.files.length) {
+            fileInput.files = e.dataTransfer.files;
+            updateFileList();
+        }
+    });
+    
+    fileInput.addEventListener('change', updateFileList);
+    
+    function updateFileList() {
+        fileList.innerHTML = '';
+        if (fileInput.files.length > 0) {
+            const list = document.createElement('ul');
+            for (let i = 0; i < fileInput.files.length; i++) {
+                const item = document.createElement('li');
+                item.textContent = fileInput.files[i].name + ' (' + formatFileSize(fileInput.files[i].size) + ')';
+                list.appendChild(item);
+            }
+            fileList.appendChild(list);
+        }
+    }
+    
+    function formatFileSize(bytes) {
+        if (bytes === 0) return '0 Bytes';
+        const k = 1024;
+        const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    }
+    
+    // Form submission
+    document.getElementById('nomineeForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Validate form
+        let valid = true;
+        
+        // Check required fields
+        this.querySelectorAll('[required]').forEach(field => {
+            if (!field.value) {
+                field.style.borderColor = 'var(--red)';
+                valid = false;
+            } else {
+                field.style.borderColor = '';
+            }
+        });
+        
+        if (valid) {
+            // In a real implementation, this would submit the form
+            alert('Form validated successfully. Proceeding to next section...');
+            window.location.href = 'nominate3.html';
+        } else {
+            alert('Please fill in all required fields.');
+        }
+    });
+</script>
+</body>
+<style>
+      
+     .form-container {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 40px;
+        }
+        
+        /* h2 {
+            color: var(--primary);
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+        } */
+        
+        .form-section {
+            margin-bottom: 40px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        label.required:after {
+            content: " *";
+            color: var(--red);
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: var(--fs-8);
+            transition: border 0.3s ease;
+            color: var(--black_70);
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: var(--gold);
+            outline: none;
+            box-shadow: 0 0 0 2px var(--light-gold);
+        }
+        
+        .radio-group, .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .radio-option, .checkbox-option {
+            display: flex;
+            align-items: center;
+        }
+        
+        .radio-option input, .checkbox-option input {
+            margin-right: 8px;
+        }
+        
+        .other-input {
+            margin-top: 10px;
+            display: none;
+        }
+        
+        .file-upload {
+            border: 2px dashed #ddd;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+        }
+        
+        .file-upload:hover {
+            border-color: var(--gold);
+            background-color: var(--light-gold);
+        }
+        
+        .file-upload i {
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .file-requirements {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .btn-back {
+            background-color: white;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+        }
+        
+        .btn-back:hover {
+            background-color: rgba(0, 85, 162, 0.1);
+        }
+        
+        .btn-next {
+            background-color: var(--gold);
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 85, 162, 0.2);
+        }
+        
+        .btn-next:hover {
+            background-color: var(--gold);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 85, 162, 0.3);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .form-container {
+                padding: 25px;
+            }
+            
+            .btn-container {
+                flex-direction: column-reverse;
+                gap: 15px;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+</style>
